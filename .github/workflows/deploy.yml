@@ -1,0 +1,29 @@
+name: LaTeX PDF generator
+on: [push]
+
+jobs:
+  build_latex:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Set up Git repository
+        uses: actions/checkout@v3
+
+      - name: Compile LaTeX Document
+        uses: xu-cheng/latex-action@v2
+        with:
+          root_file: "Rasim_Andiran_Resume.tex"
+
+      - name: Upload PDF File
+        uses: actions/upload-artifact@v4
+        with:
+          name: PDF
+          path: "Rasim_Andiran_Resume.pdf"
+
+      - name: Upload PDF to GitHub Pages
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          personal_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: .
+          publish_branch: gh-pages
+          destination_dir: .
