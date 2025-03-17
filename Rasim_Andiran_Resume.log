@@ -1,12 +1,12 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.12.1)  17 DEC 2024 20:25
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2025.3.1)  17 MAR 2025 19:45
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
 **Rasim_Andiran_Resume.tex
 (./Rasim_Andiran_Resume.tex
-LaTeX2e <2024-11-01> patch level 1
-L3 programming layer <2024-11-02>
+LaTeX2e <2024-11-01> patch level 2
+L3 programming layer <2025-01-18>
 (/opt/texlive/texdir/texmf-dist/tex/latex/base/article.cls
 Document Class: article 2024/06/29 v1.4n Standard LaTeX document class
 (/opt/texlive/texdir/texmf-dist/tex/latex/base/size11.clo
@@ -29,7 +29,7 @@ Package: fullpage 1999/02/23 1.1 (PWD)
 \FP@margin=\skip51
 )
 (/opt/texlive/texdir/texmf-dist/tex/latex/titlesec/titlesec.sty
-Package: titlesec 2023/10/27 v2.16 Sectioning titles
+Package: titlesec 2025/01/04 v2.17 Sectioning titles
 \ttl@box=\box52
 \beforetitleunit=\skip52
 \aftertitleunit=\skip53
@@ -56,7 +56,7 @@ File: dvipsnam.def 2016/06/17 v3.0m Driver-dependent file (DPC,SPQR)
 )
 (/opt/texlive/texdir/texmf-dist/tex/latex/graphics/mathcolor.ltx))
 (/opt/texlive/texdir/texmf-dist/tex/latex/enumitem/enumitem.sty
-Package: enumitem 2019/06/20 v3.9 Customized lists
+Package: enumitem 2025/02/06 v3.11 Customized lists
 \enitkv@toks@=\toks18
 \labelindent=\skip54
 \enit@outerparindent=\dimen147
@@ -69,7 +69,7 @@ Package: enumitem 2019/06/20 v3.9 Customized lists
 Package: hyperref 2024-11-05 v7.01l Hypertext links for LaTeX
 
 (/opt/texlive/texdir/texmf-dist/tex/generic/iftex/iftex.sty
-Package: iftex 2022/02/03 v1.0f TeX engine tests
+Package: iftex 2024/12/12 v1.0g TeX engine tests
 )
 (/opt/texlive/texdir/texmf-dist/tex/latex/graphics/keyval.sty
 Package: keyval 2022/05/29 v1.15 key=value parser (DPC)
@@ -116,7 +116,7 @@ Package: kvoptions 2022-06-15 v3.15 Key value format for package options (HO)
 \c@section@level=\count272
 )
 (/opt/texlive/texdir/texmf-dist/tex/latex/etoolbox/etoolbox.sty
-Package: etoolbox 2020/10/05 v2.5k e-TeX tools for LaTeX (JAW)
+Package: etoolbox 2025/02/11 v2.5l e-TeX tools for LaTeX (JAW)
 \etb@tempcnta=\count273
 )
 (/opt/texlive/texdir/texmf-dist/tex/generic/stringenc/stringenc.sty
@@ -267,49 +267,47 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <7> on input line 67.
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <5> on input line 67.
-LaTeX Font Info:    Trying to load font information for TS1+bch on input line 7
-4.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <10.95> on input line 78.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <8> on input line 78.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <6> on input line 78.
+LaTeX Font Info:    Trying to load font information for TS1+bch on input line 9
+9.
 
 (/opt/texlive/texdir/texmf-dist/tex/latex/psnfss/ts1bch.fd
 File: ts1bch.fd 2004/10/18 font definitions for TS1/bch.
 )
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <10.95> on input line 82.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 82.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 82.
-
 
 [1
 
 {/opt/texlive/texdir/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{/opt/texlive
-/texdir/texmf-dist/fonts/enc/dvips/base/8r.enc}]
-
-[2] (./Rasim_Andiran_Resume.aux)
+/texdir/texmf-dist/fonts/enc/dvips/base/8r.enc}] (./Rasim_Andiran_Resume.aux)
  ***********
-LaTeX2e <2024-11-01> patch level 1
-L3 programming layer <2024-11-02>
+LaTeX2e <2024-11-01> patch level 2
+L3 programming layer <2025-01-18>
  ***********
 Package rerunfilecheck Info: File `Rasim_Andiran_Resume.out' has not changed.
-(rerunfilecheck)             Checksum: BB0E7B8A23E1EFBC16C41BD6946DA239;385.
+(rerunfilecheck)             Checksum: 1CA194553D5DAAC989548CB1D1BA513A;307.
  ) 
 Here is how much of TeX's memory you used:
- 9083 strings out of 473330
- 141090 string characters out of 5721821
- 560953 words of memory out of 5000000
- 32117 multiletter control sequences out of 15000+600000
- 579263 words of font info for 66 fonts, out of 8000000 for 9000
+ 9089 strings out of 473201
+ 141184 string characters out of 5718211
+ 563844 words of memory out of 5000000
+ 32244 multiletter control sequences out of 15000+600000
+ 580308 words of font info for 66 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 75i,7n,79p,906b,695s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 75i,7n,79p,266b,438s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </opt/texlive/texdir/texmf-dist/fonts/type1/bitstrea/charter/bchb8a.pfb></opt
 /texlive/texdir/texmf-dist/fonts/type1/bitstrea/charter/bchr8a.pfb></opt/texliv
 e/texdir/texmf-dist/fonts/type1/bitstrea/charter/bchri8a.pfb></opt/texlive/texd
-ir/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
-Output written on Rasim_Andiran_Resume.pdf (2 pages, 60776 bytes).
+ir/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></opt/texlive/texdir/te
+xmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb>
+Output written on Rasim_Andiran_Resume.pdf (1 page, 67125 bytes).
 PDF statistics:
- 60 PDF objects out of 1000 (max. 8388607)
- 47 compressed objects within 1 object stream
- 7 named destinations out of 1000 (max. 500000)
- 33 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 55 PDF objects out of 1000 (max. 8388607)
+ 41 compressed objects within 1 object stream
+ 5 named destinations out of 1000 (max. 500000)
+ 25 words of extra memory for PDF output out of 10000 (max. 10000000)
 
