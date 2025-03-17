@@ -41,7 +41,7 @@
 
 \newcommand{\resumeSubheading}[4]{
   \vspace{-2pt}\item
-    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+    \begin{tabular*}{\textwidth}[t]{l@{\extracolsep{\fill}}r}
       \textbf{#1} & #2 \\
       \textit{\small#3} & \textit{\small #4} \\
     \end{tabular*}\vspace{-7pt}
@@ -54,9 +54,9 @@
     \end{tabular*}\vspace{-7pt}
 }
 
-\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}]}
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0in, label={}]}
 \newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
-\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}[leftmargin=0.15in, label={\tiny$\bullet$}]}
 \newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
 
 \begin{document}
@@ -69,10 +69,6 @@
 	\href{https://github.com/rasimandiran}{\underline{github.com/rasimandiran}}
 \end{center}
 
-%-----------SUMMARY-----------
-\section{Summary}
-Results-driven Full-Stack Software Developer with extensive experience building scalable web and mobile applications. Successfully scaled a gaming platform to 100,000+ users with 50,000+ daily transactions using a microservices architecture. Skilled in backend development, API integration, and cloud infrastructure with AWS (Lambda, DynamoDB, S3), Python (Django, FastAPI), JavaScript (React, Next.js, Express.js), and databases like PostgreSQL and MySQL. Key achievements include developing a \$100M+ asset management platform, integrating 20+ cryptocurrency exchanges, and managing 50+ API integrations for real-time data synchronization. Known for hands-on coding, and delivering impactful solutions in fast-paced environments. Ready to drive innovation and system efficiency in challenging projects.
-
 %-----------EXPERIENCE-----------
 \section{Experience}
 \resumeSubHeadingListStart
@@ -81,46 +77,46 @@ Results-driven Full-Stack Software Developer with extensive experience building 
   {Fullstack Software Developer}{November 2023 -- Present}
   {Online Gaming Platform}{Remote}
   \resumeItemListStart
-    \resumeItem{System Overhaul \& Scalability: Rebuilt the entire legacy codebase from scratch, transitioning to a service-oriented architecture (SOA) with 15+ microservices, supporting 100,000+ users and processing 50,000+ games daily.}
-    \resumeItem{Backend \& Database Development: Redesigned PostgreSQL database for scalability, improved performance using Redis and Kafka, and integrated real-time processing features like live chat and user progression tracking.}
-    \resumeItem{Full-Stack Collaboration: Led backend development while contributing to frontend features using Next.js, enhancing user experience and supporting complex game logic.}
+    \resumeItem{Rebuilt codebase to microservices architecture, supporting 100k+ users and 50k+ daily games.}
+    \resumeItem{Optimized database with Redis caching and Kafka for real-time chat and user tracking.}
+    \resumeItem{Led backend development while contributing to frontend with Next.js.}
   \resumeItemListEnd
         
   \resumeSubheading
   {Chief Technology Officer}{February 2021 -- June 2023}
   {Idealex}{Baku, Azerbaijan}
   \resumeItemListStart
-    \resumeItem{Technical Leadership \& System Architecture: Designed and implemented the entire technical infrastructure for both B2C (crypto and stock trading platform) and B2B (API product for financial institutions) services, integrating over 20 exchanges to provide optimal pricing and additional features like staking.}
-    \resumeItem{Cloud Infrastructure \& DevOps: Built a scalable, serverless architecture using AWS services (DynamoDB, Lambda, S3, CloudFront, Amplify and more), ensuring system reliability, security, and high availability.}
-    \resumeItem{Team Leadership: Led a cross-functional team of 10, including 4 backend developers, 2 mobile developers, 2 designers, and 2 frontend developers, while contributing directly to the codebase and driving best coding practices.}
-    \resumeItem{ Strategic \& Client-Facing Role: Managed partnerships with third-party providers, negotiated service agreements, led technical discussions with B2B clients, and played a key role in strategic decision-making alongside the executive team.}
+    \resumeItem{Built B2C crypto trading platform and B2B financial APIs integrating 20+ exchanges.}
+    \resumeItem{Implemented serverless AWS architecture (DynamoDB, Lambda, S3, CloudFront) for system reliability and security.}
+    \resumeItem{Led team of 10 developers across backend, frontend, and mobile platforms while contributing to codebase.}
+    \resumeItem{Managed partnerships, negotiated agreements, and led technical discussions with B2B clients.}
   \resumeItemListEnd
 
   \resumeSubheading
   {Fullstack Software Developer}{February 2020 -- February 2021}
   {BV Crypto}{Remote}
   \resumeItemListStart
-    \resumeItem{System Design \& Development: Designed and implemented a comprehensive fund management system for a hedge fund managing over \$100M in assets, enabling real-time tracking, investment management, and fund performance reporting through a scalable backend architecture.}
-    \resumeItem{Data Integration \& Automation: Integrated 50+ APIs for real-time price updates of various investment instruments, ensuring instant sync. and up-to-date performance metrics like AUM, Sharpe Ratio, and other critical KPIs.}
-    \resumeItem{Financial Data Visualization: Built custom dashboards for fund managers with live financial analytics, ensuring personalized access levels and secure data visibility based on user permissions.}
+    \resumeItem{Implemented fund management system for \$100M+ hedge fund with real-time tracking and reporting.}
+    \resumeItem{Integrated 50+ APIs for real-time updates of investment instruments and metrics (AUM, Sharpe Ratio, KPIs).}
+    \resumeItem{Built dashboards with role-based access for fund managers to view financial analytics.}
   \resumeItemListEnd
 
   \resumeSubheading
   {Fullstack Software Developer}{February 2018 -- January 2020}
   {Talenta Solutions}{Bursa, Turkey}
   \resumeItemListStart
-    \resumeItem{P2P Cryptocurrency Exchange Development: Designed and implemented P2P/non-P2P crypto exchanges, including frontend and backend components using PHP and Express.js, with high-performance order-matching engines developed in C/C++}
-    \resumeItem{Market-Making Bot Integration: Built and deployed a market-making bot integrated with 8-10 exchanges, enhancing trading operations and liquidity through automated trading algorithms.}
-    \resumeItem{Gig Economy Platform Development: Enhanced mobile user experience by building a Progressive Web App, while developing scalable backend services and managing AWS cloud infrastructure for secure and resilient deployment.}
+    \resumeItem{Built P2P/non-P2P crypto exchanges with PHP, Express.js and C/C++ order-matching engines.}
+    \resumeItem{Developed market-making bot integrated with 8-10 exchanges for trading operations.}
+    \resumeItem{Created Progressive Web App with scalable backend on AWS infrastructure.}
   \resumeItemListEnd
 
   \resumeSubheading
   {Fullstack Software Developer}{August 2016 -- February 2018}
   {Behrud Technology}{Bursa, Turkey}
   \resumeItemListStart
-    \resumeItem{Travel \& Ticketing Systems: Developed a flight ticketing system using Amadeus GDS API with Django and Tornado frameworks, supporting high-volume ticket sales and generating custom travel reports for trend analysis and business insights.}
-    \resumeItem{Insurance \& 3D Modeling Platform: Built the backend and back-office portal for a car damage detection app, managing complex 3D modeling processes for insurance claims automation.}
-    \resumeItem{Telecom \& Integration Solutions: Developed the backend for a virtual SIM card app, integrating voice-over-web services and third-party APIs, enhancing telecom service scalability.}
+    \resumeItem{Developed flight ticketing system with Amadeus GDS API using Django and Tornado frameworks.}
+    \resumeItem{Built backend for car damage detection app with 3D modeling for insurance claims.}
+    \resumeItem{Created backend for virtual SIM card app with voice-over-web and third-party API integration.}
   \resumeItemListEnd
 
 \resumeSubHeadingListEnd
@@ -129,27 +125,21 @@ Results-driven Full-Stack Software Developer with extensive experience building 
 \section{Technical Skills}
 \begin{itemize}[leftmargin=0.15in, label={}]
 	\small{\item{
-		\textbf{Languages}{: Python, JavaScript, TypeScript, PHP,  C/C++, SQL, HTML/CSS } \\
+		\textbf{Languages}{: Python, JavaScript, TypeScript, PHP,  Golang, C/C++, SQL, HTML/CSS } \\
 		\textbf{Frameworks}{: Django, Flask, FastAPI, Tornado, React, Next.js, Express.js, Nest, Codeigniter, Laravel } \\
 		\textbf{Databases}{: MySQL, PostgreSQL, DynamoDB, MongoDB, Redis } \\
 		\textbf{Cloud}{: AWS, GCP, Firebase } \\
-		\textbf{Tools}{: Git, Docker, Jenkins, Github Actions, Jira} \\
+		\textbf{Tools}{: Git, Docker, Kafka, Jenkins, Github Actions, Jira} \\
 		\textbf{Libraries}{: Pandas, NumPy, Matplotlib, scikit-learn}
 	}}
 \end{itemize}
 
 %-----------EDUCATION-----------
 \section{Education}
-\resumeSubHeadingListStart
-  \resumeSubheading
-  {Uludag University}{Bursa, Turkey}
-  {Bachelor of Science (B.Sc.) in Electrical and Electronics Engineering}{}
-  \resumeSubheading
-  {Istanbul University}{Istanbul, Turkey}
-  {Bachelor of Science (B.Sc.) in Management Information Systems}{}
-  \resumeSubheading
-  {Anadolu University}{Eskisehir, Turkey}
-  {Associate Degree in Web Design and Development}{}
-\resumeSubHeadingListEnd
+\begin{itemize}[leftmargin=0in, label={}, itemsep=-3pt]
+  \item \textbf{Bachelor of Science}, Electrical and Electronics Engineering, Uludag University
+  \item \textbf{Bachelor of Science}, Management Information Systems, Istanbul University
+  \item \textbf{Associate Degree}, Web Design and Development, Anadolu University
+\end{itemize}
 
 \end{document}
